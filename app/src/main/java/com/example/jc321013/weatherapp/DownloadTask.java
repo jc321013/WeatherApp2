@@ -51,8 +51,8 @@ public class DownloadTask extends AsyncTask<String, Void,String> {
             return result;
 
 
-        } catch (MalformedURLException e){
-            e.printStackTrace();
+//        } catch (MalformedURLException e){
+//            e.printStackTrace();
         } catch (Exception e) {
             e.printStackTrace();
         }
